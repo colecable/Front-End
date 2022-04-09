@@ -1,0 +1,50 @@
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+<style>
+    body {
+        background-color: rgb(80, 75, 75);
+    }
+    h1 {
+        color: white;
+    }
+    label {
+        color: white;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-light bg-dark">
+
+        <div class="container-fluid">
+            <div class="row"> 
+                <div class="col-sm">
+                    <a class="nav-link" href="Index.html">Home Page</a>
+                </div>
+                <div class="col-sm">
+                    <a href="SecondPage.html">Form Page</a>
+                </div>
+                <div class="col-sm">Goes Nowhere</div>
+            </div>
+    </nav>
+
+    <h1 class="display-1">Contact Information</h1>
+    <div class="mb-3">
+        <label for="FirstName" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="FirstName">
+    </div>
+
+    <div class="mb-3">
+        <label for="LastName" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="LastName">
+    </div>
+    
+    <div class="mb-3">
+        <label for="email" class="form-label">Email Address</label>
+        <input type="email" class="form-control" id="email">
+    </div>
+
+    <button type="button" class="btn btn-primary" data-bs-toggle="popover" data-bs-placement="right" 
+    title="Click Me" data-bs-content="This doesn't actually do anything lol">Submit</button>
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
