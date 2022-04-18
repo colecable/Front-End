@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        .col {
+            border-style: solid;
+            border-radius:10px;
+            border-width: 4px;
+            padding: 0px;
+            height: 150px;
+            border-color: rgb(30, 177, 177);
+            background-color: gray;
+            font-size: larger;
+            color: black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <div id='main-div' class="container">
+        <div class="row">
+            <div id="square1" class="col col-md-4 restart"></div>
+            <div id="square2" class="col col-md-4 restart"></div>
+            <div id="square3" class="col col-md-4 restart"></div>
+        </div>
+
+        <div class="row">
+            <div id="square4" class="col col-md-4 restart"></div>
+            <div id="square5" class="col col-md-4 restart"></div>
+            <div id="square6" class="col col-md-4 restart"></div>
+        </div>
+
+        <div class="row">
+            <div id="square7" class="col col-md-4 restart"></div>
+            <div id="square8" class="col col-md-4 restart"></div>
+            <div id="square9" class="col col-md-4 restart"></div>
+        </div>
+    </div>
+    <h4 id="h4">It is Player 1's turn.</h4>
+    <br>
+    <br>
+    <button id="btn" class="btn btn-warning">Restart</button>
+    <script src="TicTacToe.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
