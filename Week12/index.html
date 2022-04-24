@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    <h2>Add a Brewery</h2>
+    <div class="input-group">
+        <span class="input-group-text">ID</span>
+        <input type="text" aria-label="ID" class="form-control" id="id-input">
+        <span class="input-group-text">Brewery Name</span>
+        <input type="text" aria-label="Brewery Name" class="form-control" id="name-input">
+        <span class="input-group-text">State</span>
+        <input type="text" aria-label="State" class="form-control" id="state-input">
+      </div> <br>
+      <button type="button" class="btn btn-primary" id="add-btn">Add</button><br><br>
+    <h2>Delete a Brewery</h2>
+    <div class="input-group">
+        <span class="input-group-text">Brewery Name</span>
+        <input type="text" aria-label="Brewery Name" class="form-control" id="name-delete">
+    </div> <br>
+    <button type="button" class="btn btn-danger" id="delete-btn">Delete</button><br><br>
+    
+    <table class="table table-success">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Brewery Name</th>
+            <th scope="col">State</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+    
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="app.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
+
+`<td>${idField}</td>
+<td>${nameField}</td>
+<td>${stateField}</td>`
